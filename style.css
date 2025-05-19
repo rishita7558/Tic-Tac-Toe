@@ -93,4 +93,10 @@ h1{
         grid-template-rows: repeat(3,15vw);
         grid-template-columns: repeat(3,15vw);
     }
+    .reset{
+        font-size: 3.3vw;
+    }
+    .info{
+        font-size: 3.8vw;
+    }
 }
