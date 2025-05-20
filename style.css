@@ -35,8 +35,6 @@ h1{
     border : 1.5px solid black;
     font-size: 5vw;
     cursor: pointer;
-    /* text-align: center;
-    line-height: 10vw; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +91,7 @@ h1{
         grid-template-rows: repeat(3,15vw);
         grid-template-columns: repeat(3,15vw);
     }
-    .reset{
+    #reset{
         font-size: 5vw;
     }
     .info{
@@ -101,5 +99,7 @@ h1{
     }
     .game-container{
         flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
