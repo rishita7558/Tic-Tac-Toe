@@ -13,7 +13,7 @@ A simple and interactive **Tic-Tac-Toe** game built using web technologies. Play
 - ✨ Responsive and clean UI
 - 🗂️ Simple and modular code
 
-  ---
+---
 
 ## 🛠 Tech Stack
 
