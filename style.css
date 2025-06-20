@@ -14,7 +14,7 @@ h1{
     height: 8vw;
     line-height: 8vw;
     font-size: 5vw;
-    background-color: rgb(237, 182, 193);
+    background-color: rgb(224, 206, 243);
     text-align: center;
 }
 
@@ -73,14 +73,33 @@ h1{
     border-left: 0;
 }
 
-#reset{
+/* #reset{
     padding: 0.25rem 0.5rem;
     background-color: rgb(238, 228, 248);
     font-size: 2.5vw;
     border-radius: 6px;
     cursor: pointer;
     margin-left: 2.5rem;
+} */
+
+#reset {
+    padding: 0.25rem 0.5rem;
+    background-color: rgb(238, 228, 248);
+    font-size: 2.5vw;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 2.5rem;
+    border: 1px solid rgb(132, 87, 176);
+    color: #333;
+    box-shadow: 0 0 0 transparent;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
+
+#reset:hover {
+    box-shadow: 0 0 12px rgba(174, 139, 245, 0.7), 0 0 20px rgba(174, 139, 245, 0.5);
+    transform: scale(1.05);
+}
+
 #reset:active{
     opacity: 0.65;
 }
